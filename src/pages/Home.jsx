@@ -9,6 +9,7 @@ import Marquee from '../components/Marquee'
 import BannerSlider from '../components/BannerSlider'
 import { getProducts } from '../api'
 import { getBanners } from '../api'
+import heroImage from '../hero.jpeg'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -105,7 +106,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <img
             ref={imageRef}
-            src="https://www.magnific.com/free-photos-vectors/desktop-wallpaper-anime"
+             src={heroImage}
             alt="Hero"
             className="w-full h-[120%] object-cover opacity-90 transform-gpu will-change-transform"
           />
