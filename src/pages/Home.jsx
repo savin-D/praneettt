@@ -105,7 +105,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <img
             ref={imageRef}
-            src="src\hero.jpeg"
+            src="https://www.magnific.com/free-photos-vectors/desktop-wallpaper-anime"
             alt="Hero"
             className="w-full h-[120%] object-cover opacity-90 transform-gpu will-change-transform"
           />
